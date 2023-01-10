@@ -1,12 +1,17 @@
 img {
-    height: 575px;
-    width: 1250px;
+    max-height: 575px;
+    max-width: 1250px;
+    min-height: 300px;
+    min-width: 300px;
 }
 
 .pics img {
     width: 300px;
     height: 300px;
-    margin: 0 8px;
+    margin: 0 6px;
+}
+.pics {
+    text-align: center;
 }
 
 .main {
