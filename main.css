@@ -23,6 +23,8 @@ header a {
 }
 header a:hover {
 	background-color: white;
+	border-radius: 8px;
+	padding: 2px;
 	color: black;
 }
 
@@ -38,7 +40,6 @@ header a:hover {
 footer {
 	color: white;
 }
-
 
 hr {
 	width: 40%;
