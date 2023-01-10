@@ -1,0 +1,20 @@
+.main img {
+    width: 40px;
+    height: 40px;
+}
+
+.hero {
+    text-align: center;
+    font-size: 23px;
+}
+
+.main p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.pngs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

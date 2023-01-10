@@ -1,0 +1,55 @@
+img {
+	height: 400px;
+	width: auto;
+}
+
+body {
+	margin:20px;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(154, 170, 203);
+}
+
+header, footer {
+	width: 75%;
+	margin: auto;
+	padding: 20px;
+	background-color: #1C315E;
+	border: 2px solid black;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	font-size: 19px;
+}
+header a {
+	text-decoration: none;
+	color: white;
+}
+header a:hover {
+	background-color: white;
+	color: black;
+}
+
+.main {
+    width: 72.5%;
+    margin: 40px auto;
+    background-color: #F7F5EB;
+	border: 2px solid black;
+	border-radius: 8px;
+    padding: 40px;
+}
+
+footer {
+	color: white;
+	position: fixed;
+	bottom: 2%;
+	left: 12.5%;
+}
+
+
+hr {
+	width: 40%;
+}
+/* https://colorhunt.co/palette/1c315e227c7088a47ce6e2c3 */
+/* https://colorhunt.co/palette/eac7c7a0c3d2f7f5ebeae0da */
