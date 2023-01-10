@@ -1,6 +1,13 @@
-.main img {
+.pngs img {
     width: 40px;
     height: 40px;
+}
+
+.hero img {
+    width: 375px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 .hero {

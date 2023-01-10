@@ -1,18 +1,13 @@
-img {
-	height: 400px;
-	width: auto;
-}
-
 body {
-	margin:20px;
 	height: 100%;
 	width: 100%;
 	background-color: rgb(154, 170, 203);
+	margin: 0;
 }
 
 header, footer {
 	width: 75%;
-	margin: auto;
+	margin: 20px auto;
 	padding: 20px;
 	background-color: #1C315E;
 	border: 2px solid black;
@@ -42,9 +37,6 @@ header a:hover {
 
 footer {
 	color: white;
-	position: fixed;
-	bottom: 2%;
-	left: 12.5%;
 }
 
 
