@@ -15,6 +15,7 @@ header, footer {
 	justify-content: center;
 	gap: 25px;
 	font-size: 19px;
+	color: white;
 }
 header a {
 	text-decoration: none;
@@ -36,8 +37,13 @@ header a:hover {
     padding: 40px;
 }
 
-footer {
+.heads {
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.401);
 	color: white;
+	text-align: center;
+	margin-top: 0;
+	font-size: 30px;
 }
 
 hr {
