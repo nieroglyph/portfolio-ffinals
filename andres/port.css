@@ -1,0 +1,29 @@
+
+#pro{
+	 background-color: lightblue;    
+	 text-align: center;
+	 border-style:  groove;
+	 border-color: DodgerBlue;
+}
+
+.main-content{	
+	background-color: lightblue;   
+	border-style:  groove;
+	border-color: DodgerBlue;
+}
+
+form{
+	background-color:tan;
+	margin:4px;
+	width:70%;
+	height:100%;
+	margin:auto;
+	
+}
+
+body{
+	background-color:tan;
+	margin:auto;
+	
+	
+}
