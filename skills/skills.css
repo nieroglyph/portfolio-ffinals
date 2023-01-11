@@ -1,12 +1,16 @@
 .main {
     font-size: 23px;
-    height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+h3 {
+    margin: 0 40px;
+    font-size: 32px;
+}
+
 ul li {
     list-style-type: square;
-    margin: 10px 0;
+    margin: 10px 40px;
 }
