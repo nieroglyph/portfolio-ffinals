@@ -9,9 +9,14 @@
             width: 375px;
             border-radius: 10px;
             border: 1px solid black;
+            transition: all 0.4s ease;
+            filter: brightness(60%);
+        }
+        img:hover {
+            filter: brightness(100%)
         }
 
-        .main {
+        .pics {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -21,15 +26,35 @@
             font-size: 32px;
         }
 
+        h1 {
+        font-size: 62px;
+        padding: 5% 0;
+        margin: 0;
+        background-color: rgba(0, 0, 0, 0.401);
+        color: white;
+        line-height: 80px;
+        text-align: center;
+        margin-bottom: 50px;
+        }
+        em {
+            color: rgb(136, 19, 19);
+        }
+
         </style>
     </head>
     <body>
         <h2 class="heads">CHOOSE YOUR FIGHTER</h2>
         <div class="main">
-            <img src="./img/prof.jpg">
-            <h2>Del Rosario, Rein Mark</h2>
-            <img src="./andres/tanpic.png">
-            <h2>Andres, Tristan</h2>
+            <h1>
+                Portfolio for <br />
+                <em>Intro to Computing</em>
+            </h1>
+            <div class="pics">
+                <a href="./home/home.html"><img src="./img/prof.jpg"></a>
+                <h2>Del Rosario, Rein Mark</h2>
+                <a href="./andres/Personal.html"><img src="./andres/tanpic.png"></a>
+                <h2>Andres, Tristan</h2>
+            </div>
         </div>
     </body>
     </html>
